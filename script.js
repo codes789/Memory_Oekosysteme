@@ -29,6 +29,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const foundHolder = document.querySelector('.foundHolder');
     const cardsInGame = 10;
 
+
+    const btn = document.querySelector("#refresh")
+    console.log(btn);
+    btn.addEventListener("click", function() {
+        location.reload();
+    })
+    
     var attempts = 0;
     var foundCards = 0;
     attemptsHolder.textContent = attempts;
@@ -79,7 +86,7 @@ function checkForMatch(){
     attemptsHolder.textContent = attempts;
     foundHolder.textContent = foundCards; 
     if(foundCards == cardsInGame){
-       ;
+    
     }
 }
 
