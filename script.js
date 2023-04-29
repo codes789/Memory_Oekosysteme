@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     var attempts = 0;
     var foundCards = 0;
+    const again =  'Hello World'
     attemptsHolder.textContent = attempts;
     foundHolder.textContent = foundCards;
 
@@ -82,7 +83,6 @@ function checkForMatch(){
        ;
     }
 }
-
 
     initiateBoard();
 })
