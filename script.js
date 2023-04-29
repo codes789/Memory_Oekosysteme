@@ -86,7 +86,7 @@ function checkForMatch(){
     attemptsHolder.textContent = attempts;
     foundHolder.textContent = foundCards; 
     if(foundCards == cardsInGame){
-    
+        alert('Gut gemacht!')
     }
 }
 
