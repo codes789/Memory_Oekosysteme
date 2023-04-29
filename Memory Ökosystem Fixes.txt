@@ -1,0 +1,4 @@
+Memory Ökosystem Fixes:
+
+- Alles upscalen
+- "Tundra" zu "Arktik" ändern
