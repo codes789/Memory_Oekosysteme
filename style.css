@@ -1,0 +1,39 @@
+body {
+  background-color: #144055;;
+    color: #04c0ca;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
+  
+  .pageContainer {
+    width: 750px;
+    margin: 0 auto;
+    gap: 10pxsss;
+  }
+
+  .gameGrid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 100%;
+  }
+
+  .gameGrid img{
+    width: 150px;
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 250%;
+    color: #04c0ca;
+  }
+
+  h3 {
+    font-size: 150%;
+    color: #000000;
+  }
+
+  p {
+    font-size: 150%;
+    color: #000000;
+  }
