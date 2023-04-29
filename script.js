@@ -83,5 +83,6 @@ function checkForMatch(){
     }
 }
 
+
     initiateBoard();
 })
