@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const btn = document.querySelector("#refresh")
     console.log(btn);
-    btn.addEventListener("click", function() {
+    btn.addEventListener('click', function() {
         location.reload();
     })
     
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
             this.setAttribute('src', cardsList[cardid].image);
             if(chosenCards.length == 2){
                 setTimeout(checkForMatch, 800);
-            }
+            };
         }
     }
 }
