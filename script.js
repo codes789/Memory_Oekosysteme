@@ -86,7 +86,7 @@ function checkForMatch(){
     attemptsHolder.textContent = attempts;
     foundHolder.textContent = foundCards; 
     if(foundCards == cardsInGame){
-        winningMessage()
+        winningMessage(1000)
     }
 }
 
@@ -94,14 +94,10 @@ function checkForMatch(){
 })
 
 function winningMessage() {
-    var result = confirm('Gut gemacht! Willst du eine weitere Runde spielen?');
+    var result = confirm('Gut gemacht! Wenn du eine weitere Runde spielen möchtest, klick auf "Ok", ansonsten wird der Tab geschlossen.');
     if (result == false) {
-        endGame();
+        close();
     } else {
         location.reload();
     }
-}
-
-function endGame() {
-    
 }
