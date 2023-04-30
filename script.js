@@ -86,9 +86,22 @@ function checkForMatch(){
     attemptsHolder.textContent = attempts;
     foundHolder.textContent = foundCards; 
     if(foundCards == cardsInGame){
-        alert('Gut gemacht!')
+        winningMessage()
     }
 }
 
     initiateBoard();
 })
+
+function winningMessage() {
+    var result = confirm('Gut gemacht! Willst du eine weitere Runde spielen?');
+    if (result == false) {
+        endGame();
+    } else {
+        location.reload();
+    }
+}
+
+function endGame() {
+    
+}
